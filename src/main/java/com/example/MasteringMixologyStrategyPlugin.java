@@ -36,14 +36,14 @@ public class MasteringMixologyStrategyPlugin extends Plugin
 		log.info("Example stopped!");
 	}
 
-	@Subscribe
-	public void onGameStateChanged(GameStateChanged gameStateChanged)
-	{
-		if (gameStateChanged.getGameState() == GameState.LOGGED_IN)
-		{
-			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "Example says " + config.greeting(), null);
-		}
-	}
+//	@Subscribe
+//	public void onGameStateChanged(GameStateChanged gameStateChanged)
+//	{
+//		if (gameStateChanged.getGameState() == GameState.LOGGED_IN)
+//		{
+//			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "Example says " + config.greeting(), null);
+//		}
+//	}
 
 	@Provides
     MasteringMixologyStrategyConfig provideConfig(ConfigManager configManager)
