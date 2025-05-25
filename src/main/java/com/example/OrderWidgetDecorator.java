@@ -72,7 +72,7 @@ public class OrderWidgetDecorator {
                                 .collect(Collectors.toList())
                 );
                 potionOrderWidgets.add(child);
-                log.info("Extracted codes: {} from widget text: {}", codes, originalText);
+                log.debug("Extracted codes: {} from widget text: {}", codes, originalText);
             }
             client.addChatMessage(ChatMessageType.GAMEMESSAGE, "Mastering Mixology", "Found codes: " + String.join(", ", codes), null);
 
@@ -98,7 +98,6 @@ public class OrderWidgetDecorator {
 
                 if (match.isEmpty()) continue;
 
-                String potionName = match.get().getKey();
                 String code = match.get().getValue();
 
                 long allowed = expectedCount.getOrDefault(code, 0L);

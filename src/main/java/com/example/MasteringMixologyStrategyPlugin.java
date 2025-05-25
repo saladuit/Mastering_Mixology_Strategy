@@ -3,7 +3,6 @@ package com.example;
 import com.google.inject.Provides;
 import javax.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
-import net.runelite.api.Client;
 import net.runelite.api.events.ScriptPostFired;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
@@ -17,18 +16,17 @@ import net.runelite.client.plugins.PluginDescriptor;
 )
 public class MasteringMixologyStrategyPlugin extends Plugin
 {
-	@Inject
-	private Client client;
-	@Inject
-	private MasteringMixologyStrategyConfig config;
+	@SuppressWarnings("unused")
 	@Inject
 	private OrderWidgetDecorator decorator;
 
+	@SuppressWarnings("unused")
 	@Provides
 	MasteringMixologyStrategyConfig provideConfig(ConfigManager configManager) {
 		return configManager.getConfig(MasteringMixologyStrategyConfig.class);
 	}
 
+	@SuppressWarnings("unused")
 	@Subscribe
 	public void onScriptPostFired(ScriptPostFired event)
 	{
@@ -37,6 +35,7 @@ public class MasteringMixologyStrategyPlugin extends Plugin
 			decorator.decorateOrderWidgets(); // logic is embedded in the widget, activeOrders unused for now
 		}
 	}
+	@SuppressWarnings("unused")
 	@Subscribe
 	public void onConfigChanged(ConfigChanged event) {
 		if (event.getKey().equals("strategy")) {
