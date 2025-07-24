@@ -70,7 +70,7 @@ Suggestions or new strategies are welcome! Check out the [Mastering Mixology Sim
 
 ## 📝 Small note:
 
-While I used the optimised distribution strategy I green logged the mini game almost perfectly.
+While I used the **Optimised Point Distribution** strategy, I green-logged the mini-game almost perfectly.
 
 <img width="618" height="406" alt="Screenshot 2025-07-04 183010" src="https://github.com/user-attachments/assets/fad1e5fb-00f2-4013-ac27-59401b186d46" />
 
