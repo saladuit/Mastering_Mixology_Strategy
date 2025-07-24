@@ -5,6 +5,7 @@
 ## 📋 Overview
 
 The **Mastering Mixology Strategy** plugin helps you optimize your potion brewing during the Mixology minigame. It colors the in-game order widgets to visually guide you based on different brewing strategies, reducing unnecessary brews and helping you complete your Mixology log more efficiently.
+
 <img width="512" height="262" alt="Mastering Mixology Highlighter" src="https://github.com/user-attachments/assets/7a5a47cf-0d9c-49a4-8239-d7bd542eefce" />
 
 ## 🔍 Features
