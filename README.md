@@ -17,7 +17,7 @@ The **Mastering Mixology Strategy** plugin helps you optimize your potion brewin
 1. **Install the plugin** via the RuneLite Plugin Hub.
 2. Choose your desired strategy in the plugin settings.
 3. Start Mastering Mixology in-game.
-4. Play as normal — the plugin will highlight the potion to create green and potions to skip red.
+4. Play as normal — the plugin will highlight the potions to create green and the potions to skip red.
    
 <img width="512" height="262" alt="Mastering Mixology Highlighter" src="https://github.com/user-attachments/assets/7a5a47cf-0d9c-49a4-8239-d7bd542eefce" />
 
