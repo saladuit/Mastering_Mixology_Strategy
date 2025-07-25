@@ -12,7 +12,7 @@ The **Mastering Mixology Strategy** plugin helps you optimize your potion brewin
 - ⚙️ Switch between multiple optimized brewing strategies.
 - 🧠 Designed using detailed simulations from [Mastering Mixology Simulator](https://github.com/saladuit/Mastering_Mixology_Simulator).
 
-## Video Tutorial
+## 🎥 Video Tutorial
 
 [![Watch the video](https://img.youtube.com/vi/QOWP84_fKfo/0.jpg)](https://youtu.be/QOWP84_fKfo?t=267)
 
